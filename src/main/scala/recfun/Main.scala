@@ -42,9 +42,16 @@ object Main {
 
     isBalanced(chars, 0)
   }
-  
+
   /**
-   * Exercise 3
-   */
-  def countChange(money: Int, coins: List[Int]): Int = 0
+    * Exercise 3 - Counting Change
+    *
+    * Returns the number of different ways you can make change for a given amount with the given coin denominations.
+    * @param money The target amount of money for which you must make change.
+    * @param coins The list of coin denominations you may use to make change.
+    * @return The number of different ways to make change for the given amount with the given coins.
+    */
+  def countChange(money: Int, coins: List[Int]): Int = {
+    val reverseSortedCoinSet = coins.sorted.reverse.toSet[Int]
+  }
 }
