@@ -23,8 +23,12 @@ object Main {
     else pascal(c - 1, r) * (r - c + 1) / c
 
   /**
-   * Exercise 2
-   */
+    * Exercise 2 - Parentheses Balancing
+    *
+    * Returns whether a given list of characters has balanced parentheses.
+    * @param chars The list of characters to test for balance.
+    * @return Whether the given list of characters has balanced parentheses.
+    */
   def balance(chars: List[Char]): Boolean = false
   
   /**
